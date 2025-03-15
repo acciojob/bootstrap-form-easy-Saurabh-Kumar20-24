@@ -12,25 +12,33 @@
     <form>
 		<h1>Intership Form</h1>
 		<label class="form-label" for="first-name-input">First Name</label>
-		<input class="form-control invalid-feedback" type="text" id="first-name-input" required>
+		<input class="form-control " type="text" id="first-name-input" required>
+		<div class="invalid-feedback">First name required.</div>
 		
 		<label class="form-label" for="last-name-input">Last Name</label>
-		<input class="form-control" type="text" id="last-name-input" required>
+		<input class="form-control " type="text" id="last-name-input" required>
+		<div class="invalid-feedback">Last name required.</div>
 		<label class="form-label" for="email-input">Email Address</label>
 		<input class="form-control" type="email" id="email-input" required>
+		<div class="invalid-feedback">Email required</div>
 		<label class="form-label" for="college-input">College</label>
 		<input class="form-control" type="text" id="college-input" required>
+		<div class="invalid-feedback">Please provide a valid college</div>
 		<label class="form-label" for="grad-year-select">Graduation Year</label>
-		<select id="grad-year-select" required>
+		<select  id="grad-year-select" required>
 			<option>Choose</option>
 			<option>2020</option>
 			<option>2021</option> 
 			<option>2022</option>
 			<option>2023</option>
 		</select>
+		
+		<div class="invalid-feedback">Please select a valid graduation year.</div>
 		<label class="form-label" for="roll-no-input">Roll No.</label>
-		<input class="form-control" type="text" id="roll-no-input" required>
-		<input class="form-control" type="checkbox" id="conditions-checkbox" required>
+		<input class="form-control " type="text" id="roll-no-input" required>
+		<div class="invalid-feedback">Please provide a valid roll no</div>
+		<input type="checkbox" id="conditions-checkbox" required>
+		<div class="invalid-feedback">You must agree before submitting.</div>
 		<label class="form-label" for="conditions-checkbox">Agree to terms and conditions</label>
 
 		<button>Submit form</button>
