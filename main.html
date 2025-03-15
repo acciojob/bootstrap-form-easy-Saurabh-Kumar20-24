@@ -11,26 +11,27 @@
 	<!-- the entire body must be written by student -->
     <form>
 		<h1>Intership Form</h1>
-		<p>First Name</p>
-		<input type="text" id="first-name-input" required>
+		<label for="first-name-input">First Name</label>
+		<input class="form-control" type="text" id="first-name-input" required>
 		
-		<p>Last Name</p>
-		<input type="text" id="last-name-input" required>
-		<p>Email Address</p>
-		<input type="email" id="email-input" required>
-		<p>College</p>
-		<input type="text" id="college-input" required>
-		<p>Graduation Year</p>
-		<select required>
+		<label for="last-name-input">Last Name</label>
+		<input class="form-control" type="text" id="last-name-input" required>
+		<label for="email-input">Email Address</label>
+		<input class="form-control" type="email" id="email-input" required>
+		<label for="college-input">College</label>
+		<input class="form-control" type="text" id="college-input" required>
+		<label for="select">Graduation Year</label>
+		<select id="select" required>
 			<option>Choose</option>
 			<option>2020</option>
 			<option>2021</option> 
 			<option>2022</option>
 			<option>2023</option>
 		</select>
-		<p>Roll No</p>
-		<input type="number" id="roll-no-input" required>
-		<input type="checkbox" id="conditions-checkbox">Agree to terms and conditions
+		<label for="roll-no-input">Roll No</label>
+		<input class="form-control" type="text" id="roll-no-input" required>
+		<input class="form-control" type="checkbox" id="conditions-checkbox" required>
+		<label for="conditions-checkbox">Agree to terms and conditions</label>
 
 		<button>Submit form</button>
 		
